@@ -1,0 +1,1 @@
+ALTER TABLE `laudo` ADD CONSTRAINT `fk_processo_laudo` FOREIGN KEY ( `processos` ) REFERENCES `processo` ( `id` );

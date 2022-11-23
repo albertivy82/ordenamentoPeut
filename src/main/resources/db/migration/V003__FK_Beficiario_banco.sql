@@ -1,0 +1,1 @@
+ALTER TABLE `dados_bancarios` ADD  CONSTRAINT `FK_Beficiario_banco` FOREIGN KEY (`beneficiarios`) REFERENCES `beneficiario` (`id`);
